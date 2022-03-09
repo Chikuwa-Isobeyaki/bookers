@@ -29,19 +29,27 @@ p {
   margin: 33px;
 }
 
-/*topページのリンクのカラー*/
-.top-link {
-  color: rgb(102, 102, 102);
-}
+
 
 a {
   color: #000;
+}
+
+/*topページのリンクのカラー*/
+#top-link>a {
+  color: rgb(102, 102, 102);
 }
 
 a:hover {
   color: #fff;
   background-color: #000;
 }
+
+#top-link>a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
 th {
   padding-bottom: 5px;
 }
